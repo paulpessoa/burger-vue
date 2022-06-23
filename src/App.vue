@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <!--Cabeçalho-->
-    <NavComp/>
+    <NavComp :logo="logo_src" :alt="app_name"/>
 
     <!--Conteúdo-->
     <v-main>
@@ -20,9 +20,32 @@ import FooterComp from './components/FooterComp.vue';
 
 export default Vue.extend({
     name: "App",
-    data: () => ({
-    //
-    }),
-    components: { NavComp, FooterComp }
+    data() {
+      return {
+        logo_src: "/img/logo.png",
+        app_name: "Burger Vue"
+      }
+    },
+    components: { 
+      NavComp, 
+      FooterComp
+     }
 });
 </script>
+
+
+
+<style lang="scss">
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  *:hover {
+    color: #00BFA5!important;
+  }
+  h1 {
+    text-align: center;
+  }
+
+</style>

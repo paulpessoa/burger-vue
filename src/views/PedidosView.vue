@@ -1,5 +1,5 @@
 <template>
-  <div>
-    <h1>pedidos</h1>
-  </div>
+  <v-content>
+    <h1>Pedidos</h1>
+  </v-content>
 </template>
