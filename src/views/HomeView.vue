@@ -1,16 +1,20 @@
 <template>
-  <hello-world />
+  <div>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam odit eum rerum! Tempore numquam quia quibusdam ipsa aliquam tenetur officiis, fugiat ex voluptates totam, excepturi eum molestiae aspernatur exercitationem distinctio.</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam odit eum rerum! Tempore numquam quia quibusdam ipsa aliquam tenetur officiis, fugiat ex voluptates totam, excepturi eum molestiae aspernatur exercitationem distinctio.</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam odit eum rerum! Tempore numquam quia quibusdam ipsa aliquam tenetur officiis, fugiat ex voluptates totam, excepturi eum molestiae aspernatur exercitationem distinctio.</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam odit eum rerum! Tempore numquam quia quibusdam ipsa aliquam tenetur officiis, fugiat ex voluptates totam, excepturi eum molestiae aspernatur exercitationem distinctio.</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam odit eum rerum! Tempore numquam quia quibusdam ipsa aliquam tenetur officiis, fugiat ex voluptates totam, excepturi eum molestiae aspernatur exercitationem distinctio.</p>
+  </div>
 </template>
 
-<script lang="ts">
-  import Vue from 'vue'
-  import HelloWorld from '../components/HelloWorld.vue'
+<script lang="ts">  
 
-  export default Vue.extend({
+  export default {
     name: 'Home',
 
     components: {
-      HelloWorld,
+    
     },
-  })
+  }
 </script>
