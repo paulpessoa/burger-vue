@@ -36,13 +36,17 @@ export default Vue.extend({
 
 
 <style lang="scss">
+
+$primary-color: #263238;
+$base-color: #00BFA5;
+
   *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
   }
   *:hover {
-    color: #00BFA5!important;
+    color: $base-color!important;
   }
   h1 {
     text-align: center;
