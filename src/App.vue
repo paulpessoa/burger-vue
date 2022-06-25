@@ -45,7 +45,7 @@ $base-color: #00BFA5;
     margin: 0;
     box-sizing: border-box;
   }
-  *:hover {
+  a:hover {
     color: $base-color!important;
   }
   h1 {
